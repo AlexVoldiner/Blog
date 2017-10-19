@@ -6,7 +6,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Site</title>
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-    <link href="/template/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="/template/css/style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="/template/css/main.css" rel="stylesheet">
 </head>
