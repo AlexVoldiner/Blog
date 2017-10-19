@@ -1,0 +1,131 @@
+﻿#menu-wrapper {
+
+    position: fixed;
+    left: 0%;
+    right: 20px;
+    top: 1.9%;
+    z-index: 1;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    background: rgba(153, 39, 47, 0.97);
+
+}
+
+#menu {
+    text-align: center;
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a {
+    display: block;
+    float: left;
+    height: 60px;
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Arvo', serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF;
+    border: none;
+}
+
+#menu .current_page_item a {
+    background: #5a1a20;
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    background: #5a1a20;
+    color: #FFFFFF;
+}
+.container {
+    margin-top: 12%;
+    background: #1b5a3f;
+}
+#form {
+
+    display: block;
+    margin-bottom: 185px;
+    margin-top: 185px;
+    overflow: hidden;
+}
+.signup-form h5, p {
+    color: rgba(255, 227, 95, 0.93);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+ .signup-form h2 {
+    color: #fe980f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+
+ .signup-form form input {
+    background: #ccc;
+    border: medium none;
+    color: #696763;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-left: 10px;
+    width: 100%;
+}
+  #error{
+     color: #fe980f;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     position: fixed;
+     padding-top: 165px;
+     margin-left: 380px;
+
+ }
+ #footer {
+
+    width: 100%;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ #footer p {
+    font-size: 100%;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+ }
+
+ #footer a {
+    color: #FFFFFF;
+ }
+
+
