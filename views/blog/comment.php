@@ -54,7 +54,6 @@
                     <?php if ($result): ?>
                         <p id="user"> <?php echo htmlspecialchars($name) ;?></p>
                         <p id="comment"> <?php echo htmlspecialchars($text_comment);?></p>
-                        <a href='/blog/<?php echo $newsItem['id'] ;?>' class="permalink"> Back to comments</a>
                     <?php else: ?>
                     <?php if (isset($errors) && is_array($errors)): ?>
                         <ul>
@@ -134,6 +133,7 @@
     <p>Copyright (c) 2017 Alex Voldiner</p>
 </div>
 <!-- end #footer -->
-
 </body>
 </html>
+<?php if ($result) { echo '<meta http-equiv="Refresh" content="0; URL=/blog/'."{$newsItem['id']}".'">' ;
+exit(); } ?>
